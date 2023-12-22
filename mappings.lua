@@ -44,7 +44,7 @@ return {
 
   t = {
     -- setting a mapping to false will disable it
-    ["<esc>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
-    ["<C-\\>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
+    ["<esc>n"] = { "<C-\\><C-n>", desc = "Enter terminal normal mode" },
+    ["<esc><esc>"] = { "<cmd>ToggleTerm<cr>", desc = "Toggle terminal" },
   },
 }
